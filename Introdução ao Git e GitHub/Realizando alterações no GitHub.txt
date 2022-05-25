@@ -1,0 +1,18 @@
+1º - Abra o git bash direto da pasta que você irá armazenar o novo arquivo.
+
+2º - Se você quiser baixar o arquivo do GitHub, escreva $ git clone E O LINK DA CHAVE HTTP DO PROJETO GITHUB. ( Ele vai perguntar se você quer se autenticar via browser.)0
+Após concluir o processo, ele criará uma pasta com o nome do projeto baixado.
+
+3º - cd E NOME DA PASTA DO PROJETO para iniciar acessar os dados que estão dentro.
+
+4º - git status ( PARA VERIFICAR SE ESTÁ TUDO CERTO.)
+
+5º - Após a alteração, se você der um novo git status, aparecerá que você tem novos arquivos para dar commit.
+
+6º - (git add .) ou (git add -A) você estará informando que quer adicionar novos arquivos ao projeto no site do GitHub
+
+7º - (git commit -m "NOME DA ALTERAÇÃO QUE VOCÊ QUERR SUBIR") <-- Enter
+
+8º - Se você der um novo (git status) Ele te fala que você tem arquivos para subir mas que para isso acontecer, você precisar dar umm push.
+
+9º (git push origin main) - Dessa forma você estará enviando todos os commits pendentes para as nuvens e se você for no site, já estará tudo lá.
